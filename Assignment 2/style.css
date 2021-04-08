@@ -1,0 +1,70 @@
+
+/* Selector creating a Menu section */
+Menu {
+    float:left;
+    height: 250px;
+    width: 100%;
+    font: bold;
+    background-color: dodgerblue; color: white;
+}
+
+#Naglowek {
+    width: 100%; height: 500px;
+}
+/* Selector creating Sign In section */
+#ObszarLogowania {
+    float: right;
+    background-color:lightblue;
+}
+
+.dual1 {
+    margin-left: 40px;
+    float: inline-start;
+    font: bold;
+    font-size: 40px;
+}
+
+.dual2 {
+    margin-left: 40px;
+    float: left;
+    font: bold;
+    font-size: 40px;
+}
+
+/*
+.dualFontColor1:first-letter {
+    color:lightblue;
+}
+*/
+
+.dualFontColor2::first-letter {
+    color:lightblue;
+}
+
+/* Class-type selector for creating a Menu's elements */
+.option {
+    background-color: #444444;
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    border: 5px solid yellow;
+    opacity: 0.8;
+}
+
+/* Pseudo-class enabling highlighting of an element in Menu section*/
+.option:hover {
+    background-color: #000000;
+    cursor: pointer;
+}
+
+#YellowFont {
+    float: inline;
+    font-size: 30px;
+    color: yellow;
+}
+
+#PierwszyObszarBoczny { width: 200px; height: 300px; float: left; background-color: white;}
+#DrugiObszarBoczny { width: 200px; height: 300px; float: right; background-color: white;}
+#ObszarRoboczy { background-color: darkgray; }
