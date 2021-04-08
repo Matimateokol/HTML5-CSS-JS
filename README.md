@@ -1,9 +1,7 @@
-# hello-world
-This is an initial self-learn project for grasping how do Git and GitHub work.
+# HTML5-CSS-JS
+This is an initial self-learn project containing solutions of tasks, which completion was neccessary to receive a positive grade from subject "Języki skryptowe - HTML5 i JavaScript" in my first year of studies at University of Gdańsk .
 
-Hello humans!
-Let me introduce myself as a mysterious newcomer who just in a few years may change the face of polish IT industry.
-Please, ignore everything what will appear in that repository as long as you are concerned with truly basic things such as HTML5, CSS3 or JavaScript.
+Each one of folders contains an individual and separate topic with assignment to complete independently by students.
+Furthermore the content of each task is written in polish language and placed in a .docx file named "Summary". 
 
-Nice to meet you and see you again in the near future!
-MN
+Mateusz Kołacz
