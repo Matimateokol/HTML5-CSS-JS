@@ -1,45 +1,59 @@
-
-/* Selector creating a Menu section */
-Menu {
-    float:left;
-    height: 250px;
-    width: 100%;
-    font: bold;
-    background-color: dodgerblue; color: white;
+#Strona {
+    width: 100%; height: 100%;
 }
 
 #Naglowek {
-    width: 100%; height: 500px;
+    width: 100%; height: 350px;
 }
+
+#Logo {
+    padding: 10px;
+    border-width: 2px;
+    border: solid;
+    border-color:black;
+}
+
+/* Selector creating a Menu section */
+#Menu {
+    padding-left: 30px;
+    float: left;
+    height: 250px;
+    width: 100%;
+    font: bold; color: white;
+    background-color: black;
+}
+
 /* Selector creating Sign In section */
 #ObszarLogowania {
-    float: right;
+    float: inline-end;
+    text-align: right;
     background-color:lightblue;
 }
 
 .dual1 {
-    margin-left: 40px;
+    padding-left: 40px;
     float: inline-start;
     font: bold;
     font-size: 40px;
 }
-
+/*
 .dual2 {
-    margin-left: 40px;
+    padding-left: 40px;
     float: left;
     font: bold;
     font-size: 40px;
 }
+*/
+
+.dual1:first-letter {
+    color:lightblue;
+}
 
 /*
-.dualFontColor1:first-letter {
+.dual2::first-letter {
     color:lightblue;
 }
 */
-
-.dualFontColor2::first-letter {
-    color:lightblue;
-}
 
 /* Class-type selector for creating a Menu's elements */
 .option {
@@ -49,7 +63,7 @@ Menu {
     height: 25px;
     font-size: 18px;
     padding: 10px;
-    border: 5px solid yellow;
+    /*border: 5px solid yellow;*/
     opacity: 0.8;
 }
 
@@ -60,7 +74,7 @@ Menu {
 }
 
 #YellowFont {
-    float: inline;
+    position: sticky;
     font-size: 30px;
     color: yellow;
 }
