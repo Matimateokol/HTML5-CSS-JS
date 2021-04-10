@@ -70,6 +70,7 @@
     background-color: white; 
     text-align: center; 
     border-right: 1px solid black;
+    padding-top: 10px;
 }
 #DrugiObszarBoczny { 
     width: 200px; 
@@ -77,12 +78,18 @@
     float: right; 
     background-color: white; 
     border-left: 1px solid black;
+    color: red;
+    text-align: center;
+    padding-top: 10px;
 }
 #ObszarRoboczy { 
-    width: calc(100% - 402px);
+    width: calc(100% - 422px);
     height: 300px;
     float: left; 
-    background-color: darkgray ; 
+    background-color: darkgray ;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .dual1 {
