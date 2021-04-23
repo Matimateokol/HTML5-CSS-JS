@@ -6,16 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skrypty JavaScript</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script defer type="text/javascript" src="scripts/script1.js">
+    </script>
 </head>
 <body>
     <div>
         <h1>Skrypt 1</h1>
         <p class="Polecenie">Proszę uzupełnić poniższy formularz:</p>
-        <form>
-            <p>Podaj swoje imię: </p><input name="Imię">
-            <p>Podaj swoje nazwisko: </p><input name="Nazwisko">
-            <p>Podaj swój adres mailowy: </p><input name="Email">
+        <form id="form">
+            <div>
+                <label for="Imię">Podaj swoje imię: <label>
+                <input type="text" name="Imię" id="Imię" placeholder="Imię">
+            </div>
+            <div>
+                <label for="Nazwisko">Podaj swoje nazwisko: </label>
+                <input type="text" name="Nazwisko" id="Nazwisko" placeholder="Nazwisko">
+            </div>
+            <div>
+                <label for="Email">Podaj swój adres mailowy: </label>
+                <input type="text" name="Email" id="Email" placeholder="E-mail">
+            </div>
+            <button type="submit">Potwierdź</button>
         </form>
+        <div id="message"></div>
     </div>
     <div>
         <h1>Skrypt 2</h1>
