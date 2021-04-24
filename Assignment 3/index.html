@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <script defer type="text/javascript" src="scripts/script1.js">
     </script>
+    <script defer type="text/javascript" src="scripts/script2.js">
+    </script>
 </head>
 <body>
     <div>
@@ -33,7 +35,8 @@
     <div>
         <h1>Skrypt 2</h1>
         <p class="Polecenie">Proszę podać siedem dowolnych liczb jednocyfrowych:<p>
-        <input type="text" length="7" name="Liczby" id="Liczby">
+        <input type="text" maxlength="7" name="Liczby" id="Liczby">
+        <button onclick="findTheBiggestNumber()">Znajdź maximum</button>
     </div>
     <div>
         <h1>Skrypt 3</h1>
