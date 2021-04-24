@@ -1,10 +1,18 @@
 function findTheBiggestNumber()
 {
     //Selecting the input value and getting its value
-    var inputValue = document.getElementById("Liczby").value;
-    var numbers = '1234567';
-    var input = String.split('').map((i) => { return Number(i); });
-    var max = Math.max(zestaw);
+    const inputValue = document.getElementById("Liczby").value;
+
+    if (inputValue.length < 7 ) {
+        return alert("Wprowadzono zbyt mało liczb");
+    }
+
+    //Converting "inputValue" into an array of numbers
+    var array = Array.from(inputValue.toString()).map(Number);
+
+    //Finding the biggest element of the "array"
+    var theBiggestNumber = Math.max.apply(null, array);
+
     //Printing the largest number
-    console.log('Największa z podanych liczb to: ' + max);
+    alert('Największa z podanych liczb to: ' + theBiggestNumber);
 }
