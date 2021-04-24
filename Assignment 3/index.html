@@ -12,6 +12,8 @@
     </script>
     <script defer type="text/javascript" src="scripts/script3.js">
     </script>
+    <script defer type="text/javascript" src="scripts/script4.js">
+    </script>
 </head>
 <body>
     <div>
@@ -49,8 +51,11 @@
     <div>
         <h1>Skrypt 4</h1>
         <p class="Polecenie">Proszę podać dwie dowolne liczby całkowite.</p>
-        <p>Pierwsza liczba:</p><input name="PierwszaLiczba">
-        <p>Druga liczba:</p><input name="DrugaLiczba">
+        <p>Pierwsza liczba:</p>
+        <input type="number" name="PierwszaLiczba" id="Numer1">
+        <p>Druga liczba:</p>
+        <input type="number" name="DrugaLiczba" id="Numer2">
+        <button onclick="theLargestDivider()">Oblicz NWD</button>
     </div>
 </body>
 </html>
