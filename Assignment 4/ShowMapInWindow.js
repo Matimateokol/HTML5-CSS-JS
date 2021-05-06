@@ -12,5 +12,5 @@ function myWindow(url) {
     'width=700') 
 } 
     
-document.getElementById('guzikOkna').addEventListener('click', function() { myWindow('https://www.wspolrzedne-gps.pl/') });
+document.getElementById('guzikOkna').addEventListener('click', function() { myWindow('mapa.html') });
     
