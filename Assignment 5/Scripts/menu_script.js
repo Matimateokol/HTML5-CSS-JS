@@ -19,3 +19,6 @@ function rightButton(e) {
 const block = document.querySelector('#right');
 block.addEventListener('mousedown', rightButton);
 
+block.addEventListener('contextmenu', function(e) { 
+    e.preventDefault();
+}); //turns off default menu
