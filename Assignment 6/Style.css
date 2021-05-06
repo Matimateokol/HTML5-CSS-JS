@@ -3,7 +3,7 @@
     background-size: cover; /* obrazek rozciągnięty */
     width: 100%;
     height: 600px;
-    display: inline-block;/* nie trzeba używć float*/
+    display: inline-block;/* nie trzeba używać float*/
 }
 
 .clock {
@@ -13,7 +13,7 @@
     border: 8px solid black;
     margin: 30px auto; /*margines od góry i od dołu*/
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.25);
-   /* background-color: rgba(0,0,0,0.04);*/
+    background-color: #fff;
     position: relative; /*pozycja relatywna, może się zmieniać- wskazówki będa się kręcić względem tarczy.*/
 }
 
@@ -24,25 +24,36 @@
     position: absolute;/* pozycjonowanie wskazówek względem elementów przodka*/
     transform-origin: bottom center; /*punkt obrotu na środek dolnej krawedzi wskazówki*/
 }
-.hand.minutes, 
-.hand.seconds {
+.hand.minutes, .hand.aminutes, .hand.bminutes, .hand.cminutes, .hand.dminutes,
+.hand.seconds, .hand.aseconds, .hand.bseconds, .hand.cseconds, .hand.dseconds {
     height: calc(50% - 3px); /*wysokość wskazówki*/
     background-color: black;
 
 }
 
-.hand.seconds {
+.hand.seconds, .hand.aseconds, .hand.bseconds, .hand.cseconds, .hand.dseconds {
     width: 1px;
 }
 
-.hand.minutes {
+.hand.minutes, .hand.aminutes, .hand.bminutes, .hand.cminutes, .hand.dminutes {
     width: 3px;
 
 }
 
-.hand.hours{
+.hand.hours, .hand.ahours, .hand.bhours, .hand.chours, .hand.dhours {
     top: 20%;
     width: 4px;
     height: 30%; /*wysokość wskazówki*/
     background-color: red;
 }
+
+.text {
+    text-align: center;
+    background-color: cornsilk;
+}
+
+#time {
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+
