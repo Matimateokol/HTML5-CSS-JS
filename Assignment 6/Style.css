@@ -57,3 +57,34 @@
     background-color: darkgoldenrod;
 }
 
+/*section for styling alarm clock*/
+
+#alarm-container {
+	text-align:center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.7em;
+  color: white;
+}
+
+label {
+	display:inline-block;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#buttonHolder {
+    text-align: center;
+}
+
+#setButton {
+    background-color:lightgreen;
+    margin-top:10px;
+}
+#clearButton {
+    background-color:red;
+    margin-top:10px;
+}

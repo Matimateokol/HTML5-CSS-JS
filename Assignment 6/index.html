@@ -10,6 +10,47 @@
         <div class="clock">
             <div class="hand seconds"></div>
             <div class="hand minutes"></div>
+            <div class="hand hours"></div>
+        </div>
+        <h2 class="text">Warsaw Time</h2>
+        <h1 id="time"></h1>
+        <div id='alarm-container'>
+            <h3>Set Alarm Time</h3>
+            <label>
+              <div>
+                <select id='alarmhrs'></select>
+              </div>
+            </label>
+            <label>
+              <div>
+                <select id='alarmmins'></select>
+              </div>
+            </label>
+            <label>
+              <div>
+                <select id='alarmsecs'></select>
+              </div>
+            </label>
+            <label>
+              <div>
+                <select id="ampm">
+                  <option value="AM">AM</option>
+                  <option value="PM">PM</option>
+                </select>
+              </div>
+            </label>
+          </div>
+        
+          <div id='buttonHolder'>
+            <div>
+              <button id='setButton' onClick='alarmSet()'>Set Alarm</button>
+            </div>
+        
+            <div>
+              <button id='clearButton' onClick='alarmClear()'>Clear Alarm</button>
+            </div>
+        </div>
+    </div>
     <div class="wall">
         <div class="clock">
             <div class="hand aseconds"></div>
@@ -43,5 +84,6 @@
         <h2 class="text">Beijing Time</h2>
     </div>
     <script type="text/javascript" src="Script.js"></script>
+    <script type="text/javascript" src="alarm.js"></script>
 </body>
 </html>
