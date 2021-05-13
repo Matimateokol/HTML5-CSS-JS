@@ -4,17 +4,13 @@ This is an initial self-learn project containing solutions of tasks, which compl
 Each one of folders contains an individual and separate topic with assignment to complete independently by students.
 Furthermore the content of each task is written in polish language and placed in a .docx file named "Summary". 
 
-Mateusz Kołacz
-
-# Project Name
-> Here goes your awesome project description!
+~ Mateusz Kołacz
 
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
@@ -23,35 +19,29 @@ Mateusz Kołacz
 Add more general information about project. What the purpose of the project is? Motivation?
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./screenshots/screenshot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* HTML5
+* CSS3
+* JavaScript
+* Leaflet
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+In order to view results in your browser you need to:
+1. Clone this repository to your hard drive or Desktop.
+2. Open Assignment #/index.html or any .html file of your interest using Ms Edge/Firefox/Google Chrome/Opera and etc.
+3. Enjoy yourself and feel free to explore the contents 
 
 ## Code Examples
 Show examples of usage:
 `put-your-code-here`
 
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
-
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _in progress_
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+Project based on materials made available to students by course teacher: Sławomir Radomski.
 
 ## Contact
 Created by [@Matimateokol](https://github.com/Matimateokol) - feel free to contact me!
