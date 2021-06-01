@@ -20,6 +20,8 @@ The main purpose of this repository is to improve my HTML5, CSS3 and JavaScript 
 
 ## Screenshots
 ![Example screenshot](./ExampleOfJSClock.png)
+![Example screenshot](./Screenshot1.png)
+![Example screenshot](./Screenshot2.png)
 
 ## Technologies
 * HTML5
