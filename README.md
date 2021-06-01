@@ -19,7 +19,7 @@ Furthermore the content of each task is written in polish language and placed in
 The main purpose of this repository is to improve my HTML5, CSS3 and JavaScript skills.
 
 ## Screenshots
-![Example screenshot](./screenshots/screenshot.png)
+![Example screenshot](./Screenshot.png)
 
 ## Technologies
 * HTML5
