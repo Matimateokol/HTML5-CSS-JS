@@ -16,7 +16,7 @@ Furthermore the content of each task is written in polish language and placed in
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+The main purpose of this repository is to improve my HTML5, CSS3 and JavaScript skills.
 
 ## Screenshots
 ![Example screenshot](./screenshots/screenshot.png)
@@ -26,6 +26,7 @@ Add more general information about project. What the purpose of the project is? 
 * CSS3
 * JavaScript
 * Leaflet
+* AJAX
 
 ## Setup
 In order to view results in your browser you need to:
