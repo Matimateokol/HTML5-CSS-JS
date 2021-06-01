@@ -36,10 +36,6 @@ In order to view results in your browser you need to:
 2. Open Assignment #/index.html or any .html file of your interest using Ms Edge/Firefox/Google Chrome/Opera and etc.
 3. Enjoy yourself and feel free to explore the contents 
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
-
 ## Status
 Project is: _in progress_
 
