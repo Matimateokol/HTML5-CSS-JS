@@ -37,7 +37,7 @@ In order to view results in your browser you need to:
 3. Enjoy yourself and feel free to explore the contents 
 
 ## Status
-Project is: _in progress_
+Project is: _completed_
 
 ## Inspiration
 Project based on materials made available to students by course teacher: Sławomir Radomski.
